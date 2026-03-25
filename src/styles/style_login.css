@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* LOGO */
+/*-----------------------------------------*/
+#b1 {
+  width: 15%;
+  height: 60px;
+  float: left;
+}
+
+#b1 img {
+  width: 85%;
+  height: 60px;
+}
+/*-----------------------------------------*/
+/* Đăng nhập */
+/*-----------------------------------------*/
+/* Midder Login */
+.midder-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  background-color: white;
+}
+
+.login-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1000px;
+}
+
+.login-image {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.login-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.login-image p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.login-container {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.login-container h2 {
+  color: rgba(0, 162, 231, 255);
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 162, 231, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-login:hover {
+  background-color: rgba(0, 110, 231, 255);
+}
+
+.extra-options {
+  margin-top: 15px;
+}
+
+.extra-options a {
+  color: rgba(0, 162, 231, 255);
+  text-decoration: none;
+  font-size: 14px;
+}
+.extra-options a:hover {
+  color: rgba(0, 110, 231, 255);
+  text-decoration: underline;
+}
+.admin-login {
+  margin-top: 15px;
+}
+
+.btn-admin {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.btn-admin:hover {
+  background-color: #0056b3;
+}
+.extra-login-options {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.extra-login-options p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.social-login {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-google,
+.btn-facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-google {
+  background-color: #db4437;
+}
+
+.btn-google:hover {
+  background-color: #c23321;
+}
+
+.btn-facebook {
+  background-color: #4267b2;
+}
+
+.btn-facebook:hover {
+  background-color: #365899;
+}
+
+.btn-google i,
+.btn-facebook i {
+  margin-right: 8px;
+}
+
+/* Password Container */
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-container input {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.password-container .toggle-password {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  color: #888;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.password-container .toggle-password:hover {
+  color: rgba(0, 162, 231, 255);
+}
+
+/* Thông báo lỗi */
+input {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: -8px;
+  margin-bottom: 10px;
+  display: none;
+}
+/*-----------------------------------------*/
+
+/* Footer */
+/*-----------------------------------------*/
+.footer {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+  color: #808080;
+}
+.footer-column ul li a:hover {
+  color: black;
+}
+.footer-column img {
+  max-width: 100px;
+  margin: 5px 0;
+}
+
+.app-links img {
+  max-width: 80px;
+  margin-right: 5px;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
