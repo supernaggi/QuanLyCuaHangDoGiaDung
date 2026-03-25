@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Bếp gas đôi Sunhouse SHB3365",
+    "price": 1250000,
+    "category": "Bếp gas",
+    "subcategory": "Bếp gas âm",
+    "description": "Bếp gas đôi mặt kính cường lực, đầu đốt đồng.",
+    "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=400&q=80"
+  },
+  {
+    "name": "Bếp từ đôi Electrolux EHI6450BA",
+    "price": 8990000,
+    "category": "Bếp từ",
+    "subcategory": "Bếp từ đôi",
+    "description": "Bếp từ đôi cảm ứng, booster nấu nhanh.",
+    "image": "https://images.unsplash.com/photo-1588854337221-70a1c0748b12?w=400&q=80"
+  },
+  {
+    "name": "Máy hút mùi Bosch DWB067A50",
+    "price": 6500000,
+    "category": "Máy hút mùi",
+    "description": "Hút mùi áp tường, độ ồn thấp.",
+    "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&q=80"
+  },
+  {
+    "name": "Nồi cơm điện Sharp KS-N182ETV",
+    "price": 1890000,
+    "category": "Nồi cơm điện",
+    "description": "Dung tích 1.8L, lòng nồi chống dính.",
+    "image": "https://images.unsplash.com/photo-1585515320310-804814266bf7?w=400&q=80"
+  },
+  {
+    "name": "Ấm siêu tốc Philips HD9350",
+    "price": 890000,
+    "category": "Ấm siêu tốc",
+    "description": "Dung tích 1.7L, tự ngắt khi sôi.",
+    "image": "https://images.unsplash.com/photo-1570968915860-54d5c301fa9b?w=400&q=80"
+  },
+  {
+    "name": "Bộ xoong chảo inox 5 món",
+    "price": 2100000,
+    "category": "Xoong chảo",
+    "description": "Inox 304, dùng được bếp từ.",
+    "image": "https://images.unsplash.com/photo-1584990349778-098a6c1b8eba?w=400&q=80"
+  },
+  {
+    "name": "Van gas an toàn Namilux",
+    "price": 120000,
+    "category": "Phụ tùng",
+    "subcategory": "Van gas",
+    "description": "Van ngắt gas tự động khi rò rỉ.",
+    "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&q=80"
+  },
+  {
+    "name": "Bình gas 12kg Petrolimex",
+    "price": 420000,
+    "category": "Gas",
+    "subcategory": "Gas gia đình",
+    "description": "Gas hóa lỏng chuẩn.",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80"
+  },
+  {
+    "name": "Bếp công nghiệp 2 họng",
+    "price": 4500000,
+    "category": "Bếp công nghiệp",
+    "description": "Công suất cao cho nhà hàng.",
+    "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=400&q=80"
+  },
+  {
+    "name": "Bếp gas đơn Namilux NA-300",
+    "price": 350000,
+    "category": "Bếp gas",
+    "subcategory": "Bếp gas đơn",
+    "description": "Bếp đơn tiện dụng, khung thép.",
+    "image": "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?w=400&q=80"
+  }
+]
